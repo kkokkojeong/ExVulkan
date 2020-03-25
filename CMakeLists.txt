@@ -9,7 +9,8 @@ include_directories(/Users/seokcheol/vulkansdk-macos-1.2.131.2/macOS/Frameworks/
 link_libraries(/Users/seokcheol/vulkansdk-macos-1.2.131.2/macOS/Frameworks/vulkan.framework)
 #target_link_libraries(/Users/seokcheol/vulkansdk-macos-1.2.131.2/macOS/Frameworks/vulkan.framework)
 
-add_executable(ExVulkan main.cpp)
+# add_executable(ExVulkan main.cpp)
+add_executable(ExVulkan sample-api/01-instance.cpp)
 
 
 #target_link_libraries(cmake_testapp_boost ${Boost_LIBRARIES})
