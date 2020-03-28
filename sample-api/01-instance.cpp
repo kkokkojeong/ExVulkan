@@ -39,6 +39,7 @@ int main(int argc, const char *argv[]) {
 
     if (res == VK_SUCCESS) {
         std::cout << "Success to create vulkan instance\n";
+//        std::cout << inst_info << std::endl;
     }
 
     vkDestroyInstance(inst, NULL);
